@@ -1,5 +1,5 @@
 {
-  "name": "bitcoin-node-api",
+  "name": "bitcoin-nod-api",
   "version": "1.0.1",
   "description": "Bitcoin-Node-Api is an Express middleware plugin that exposes URLs for quick development and interfacing with a bitcoind Bitcoin wallet.",
   "main": "lib/api.js",
