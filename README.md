@@ -1,6 +1,6 @@
-# bitcoin-node-api
+# bitcoin-nod-api
 
-Bitcoin-Node-Api is an Express middleware plugin that easily exposes a URL structure for interfacing with a bitcoind Bitcoin wallet.
+Bitcoin-Nod-Api is an Express middleware plugin that easily exposes a URL structure for interfacing with a bitcoind Bitcoin wallet.
 
 NB: The middleware is experimental at present. Certain JSON-RPC methods are not supported yet and/or experimental. These are methods with more complex parameters that do not fit easily into a query string:
 
@@ -18,7 +18,7 @@ These methods will be added in the future. If there any other problems with the 
 ## Install
 
 ```javascript
-npm install bitcoin-node-api
+npm install bitcoin-nod-api
 ```
 
 ## How to use
@@ -26,7 +26,7 @@ npm install bitcoin-node-api
 ### Node.js
 
 ```javascript
-var bitcoinapi = require('bitcoin-node-api');
+var bitcoinapi = require('bitcoin-nod-api');
 var express = require('express');
 var app = express();
 
@@ -140,7 +140,7 @@ bitcoinapi.setAccess('restrict', ['dumpprivkey', 'sendmany']);
 
 ### Access Profiles
 
-Bitcoin-Node-Api has predefined access profiles to make it easy to set up.
+Bitcoin-Nod-Api has predefined access profiles to make it easy to set up.
 
 #### 'default-safe'
 
@@ -160,11 +160,11 @@ bitcoinapi.setAccess('read-only');
 
 ## Projects
 
-Bitcoin-Node-Api is used in the following projects:
+Bitcoin-Nod-Api is used in the following projects:
 
 * [Min.io](http://min.io)
 
-If you use Bitcoin-Node-Api in your projects submit a pull request to the readme with a link or send me an email: niel@delarouviere.com
+If you use Bitcoin-Nod-Api in your projects submit a pull request to the readme with a link or send me an email: niel@delarouviere.com
 
 # Licence
 

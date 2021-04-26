@@ -1,15 +1,23 @@
 {
   "name": "bitcoin-nod-api",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Bitcoin-Node-Api is an Express middleware plugin that exposes URLs for quick development and interfacing with a bitcoind Bitcoin wallet.",
   "main": "lib/api.js",
   "scripts": {
     "start": "node lib/api.js"
   },
-  "keywords": ["bitcoin-core", "node", "api"],
+  "keywords": [
+    "bitcoin-core",
+    "node",
+    "api"
+  ],
   "author": "Niel de la Rouviere",
-	"contributors": [
-		"Mustafa Agha <dev-hub.cf> (https://dev-hub.cf)"
-	],
-  "license": "MIT"
+  "contributors": [
+    "Mustafa Agha <dev-hub.cf> (https://dev-hub.cf)"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "bitcoin-core": "^3.0.0",
+    "express": "^4.17.1"
+  }
 }
